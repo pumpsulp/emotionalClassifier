@@ -1,8 +1,11 @@
-В блокноте main.ipynb приведено решение задачи классификации текста по трём классам: negative, neutral, positive на основе набора данных rusentiment, используя такие модели машинного обучения, как: Logistic Regression, Naive Bayes, Decision Tree.
+#Эмоциональный тон русскоязычных текстовых сообщение
 
-Для запуска блокнота необходимо установить ядро Jupyter Notebook, сделать это можно различными способами, удобнее всего на мой взгляд установить его внутри Pycharm. Проще всего загрузить main.ipynb в Google Colab.
+В блокноте main.ipynb приведено решение задачи классификации текста по трём классам: negative, neutral, positive на основе набора данных ![rusentiment](https://github.com/strawberrypie/rusentiment), используя такие модели машинного обучения, как: Logistic Regression, Naive Bayes, Decision Tree.
+
+Для запуска блокнота необходимо установить ядро Jupyter Notebook. Сделать это можно разными способами.
+Удобнее всего на мой взгляд установить его внутри Pycharm, ещё проще - клонировать и запустить проект в Google Colab.
 
 В requirements.txt перечислены все внешние зависимости. Проект можно запустить, используя окружение conda, либо установить зависимости в другое окружение, используя pip, для этого в корне проекта выполните:
 
-pip install -U -r requirements.txt
+```pip install -U -r requirements.txt```
 
